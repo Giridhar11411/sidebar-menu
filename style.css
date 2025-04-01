@@ -7,9 +7,10 @@
 }
 
 .main_box {
-    background: url(photo.jpg);
+    background: url(photo.jpg) no-repeat center center;
     height: 100vh;
     background-size: cover;
+    width: 100%;
 }
 
 .btn_one i {
@@ -147,6 +148,10 @@
     .sidebar_menu .social_media {
         left: 20%; /* Center social icons better */
     }
+    .main_box {
+        background-size: cover;  /* Keeps the background covering the screen */
+        background-position: center center;  /* Ensures the image is centered */
+    }
 }
 
 @media (max-width: 480px) {
@@ -169,5 +174,10 @@
 
     .sidebar_menu .menu a {
         font-size: 14px; /* Adjust menu text */
+    }
+    .main_box {
+        background-size: cover;  /* Keeps background size cover for smaller screens */
+        background-position: center center;  /* Ensures the image stays centered */
+        height: 100vh; /* Full viewport height */
     }
 }
