@@ -2,9 +2,9 @@
 
 This is a simple sidebar navigation project created using **HTML**, **CSS**, and **Font Awesome** icons. It features a responsive layout that works well on both desktop and mobile devices.
 
-## 🌐 Live Demo
+## 🌐 Live Link
 Check out the live version of this project here:  
-[Live Demo](https://giridhar11411.github.io/sidebar-menu/)
+[Live Link](https://giridhar11411.github.io/sidebar-menu/)
 
 ## 🔥 Features
 - **Sidebar Navigation:** A sleek sidebar that includes links to various sections.
